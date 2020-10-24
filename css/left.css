@@ -1,0 +1,19 @@
+html{   
+    width: 100%;   
+    height: 100%;   
+    font-style: sans-serif;   
+}   
+body{   
+    width: 100%;   
+    height: 100%;   
+    font-family: 'Open Sans',sans-serif;   
+    margin: 0;   
+    background-color: #B0DFF3;   
+}
+.mnItem{
+		text-decoration:none;
+		color:#222;
+}
+li{
+padding:5px;
+}

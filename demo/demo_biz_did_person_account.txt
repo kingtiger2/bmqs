@@ -1,0 +1,45 @@
+
+大家好！本内容由模板脚本生成，模板文件保存在程序目录下的Templates文件夹中。
+注：本示例采用了类似于JSP和ASP的页面模板技术
+
+当前模型中的表：数目4
+
+
+表1 biz_did_person_account[用户did]
+表2 role[角色]
+表3 user[用户]
+表4 biz_did_enterprise_account[企业did]
+
+当前表名为：biz_did_person_account
+逻辑名称：用户did
+
+字段数目：10
+  字段1：Id[编号]，(Integer)
+
+  字段2：name[姓名]，(String)
+
+  字段3：degree[学历]，(String)
+
+  字段4：hj[户籍]，(String)
+
+  字段5：jtzz[家庭住址]，(String)
+
+  字段6：Memo[注释]，(String)
+
+  字段7：CreatorId[创建人编号]，(Integer)
+
+  字段8：CreatorName[创建人姓名]，(String)
+
+  字段9：CreateDate[创建日期]，(Date)
+
+  字段10：DataLevel[数据级别]，(Enum)
+
+
+下面是一个长长的SQL：
+
+
+select ID, NAME, DEGREE, HJ, JTZZ, MEMO, CREATORID, CREATORNAME, CREATEDATE, DATALEVEL from BIZ_DID_PERSON_ACCOUNT
+
+示例结束
+
+
